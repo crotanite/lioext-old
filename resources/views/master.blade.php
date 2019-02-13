@@ -33,13 +33,13 @@
                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#lioimage">Lioimage</a>
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#lioimage">LioImage</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#liogene">Liogene</a>
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#liogene">LioGene</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#liomart">Liomart</a>
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#liomart">LioMart</a>
                             </li>
                         </ul>
                     </div>

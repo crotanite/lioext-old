@@ -210,7 +210,7 @@ class FormController extends Controller
 		$potentials = [];
 
 		// fetch the content of the json file
-		$path = public_path().'\data\liogene.json';
+		$path = public_path().'/data/liogene.json';
 		$json_content = json_decode(file_get_contents($path), true);
 
 		// get the mother correctly

@@ -52,6 +52,7 @@
 					eye_color: null,
 					mane_shape: null,
 					mane_color: null,
+					markings: [],
 				},
 				price:
 				{

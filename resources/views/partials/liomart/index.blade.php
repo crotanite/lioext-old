@@ -4,7 +4,7 @@
 			<div class="card-header">LioMart</div>
 			<div class="card-body">
 				<p class="card-text">
-					description
+					Select your lions genetics for an estimated sell price. <strong>Note:</strong> This price does not account for market fluctuation which can change daily.
 				</p>
 				<div class="row justify-content-md-center">
 					<div class="col">

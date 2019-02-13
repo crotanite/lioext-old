@@ -89,6 +89,18 @@
                 $('.nav-tabs a[href="#' + tab + '"]').tab('show');
             }
 
+            $(function(){
+  var hash = window.location.hash;
+  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+  $('.nav-tabs a').click(function (e) {
+    $(this).tab('show');
+    var scrollmem = $('body').scrollTop() || $('html').scrollTop();
+    window.location.hash = this.hash;
+    $('html,body').scrollTop(scrollmem);
+  });
+});
+
             // fetch the genes
             $.getJSON('/data/liogene.json', populate_selects);
 

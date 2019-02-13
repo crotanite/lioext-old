@@ -20,9 +20,20 @@
 						<option selected disabled :value="null">-- Select a Gene --</option>
 						<option v-for="eye in eyes" :value="eye.id">{{ eye.name }}</option>
 					</select>
+					<!-- mane shape -->
+					<label for="mane_shape" class="mt-2 mb-0">Mane Shape</label>
+					<select name="mane_shape" class="form-control" v-model="form.mane_shape">
+						<option selected disabled :value="null">-- Select a Gene --</option>
+					</select>
+					<!-- mane color -->
+					<label for="mane_color" class="mt-2 mb-0">Mane Color</label>
+					<select name="mane_color" class="form-control" v-model="form.mane_color">
+						<option selected disabled :value="null">-- Select a Gene --</option>
+					</select>
 				</div>
 				<div class="col col-lg-6">
-					right
+					<!-- markings -->
+					<label for="markings" class="mt-2 mb-0">Markings</label>
 				</div>
 			</div>
 		</form>
@@ -39,6 +50,8 @@
 				form: {
 					base_color: null,
 					eye_color: null,
+					mane_shape: null,
+					mane_color: null,
 				},
 				price:
 				{

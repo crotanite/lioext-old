@@ -17,6 +17,7 @@
 					<!-- eye color -->
 					<label for="eye_color" class="mt-2 mb-0">Eye Color</label>
 					<select name="eye_color" class="form-control" v-model="form.eye_color">
+						<option selected disabled :value="null">-- Select a Gene --</option>
 						<option v-for="eye in eyes" :value="eye.id">{{ eye.name }}</option>
 					</select>
 				</div>

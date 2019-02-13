@@ -25,7 +25,7 @@
 				<p class="card-text">
 					Easily save your lion/lioness images.
 				</p>
-				<a href="#" class="btn btn-primary" onclick="open_nav_tab('lioimage')">Visit</a>
+				<a href="#lioimage" class="btn btn-primary" onclick="open_nav_tab('lioimage')">Visit</a>
 			</div>
 		</div>
 	</div>
@@ -38,7 +38,7 @@
 				<p class="card-text">
 					View potential breeding combinations.
 				</p>
-				<a href="#" class="btn btn-primary" onclick="open_nav_tab('liogene')">Visit</a>
+				<a href="#liogene" class="btn btn-primary" onclick="open_nav_tab('liogene')">Visit</a>
 			</div>
 		</div>
 	</div>
@@ -51,7 +51,7 @@
 				<p class="card-text">
 					Estimate a lion's potential sell price.
 				</p>
-				<a href="#" class="btn btn-primary" onclick="open_nav_tab('liocost')">Visit</a>
+				<a href="#liomart" class="btn btn-primary" onclick="open_nav_tab('liomart')">Visit</a>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,1446 @@
+{
+	"Black":
+	{
+		"Countershaded":
+		{
+			"Dark":
+			{
+				"black": {
+					"name": "Black",
+					"image": "https://i.imgur.com/OcZcdC1.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"dikela": {
+					"name": "Dikela",
+					"image": "https://i.imgur.com/wdSjfT1.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"gray": {
+					"name": "Gray",
+					"image": "https://i.imgur.com/hfwIyj8.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"pewter": {
+					"name": "Pewter",
+					"image": "https://i.imgur.com/GueOps6.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"vandal": {
+					"name": "Vandal",
+					"image": "https://i.imgur.com/jD7hSet.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"korat": {
+					"name": "Korat",
+					"image": "https://i.imgur.com/l9o6azK.png",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"slate": {
+					"name": "Slate",
+					"image": "https://i.imgur.com/eRyuqVQ.png",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"celestial": {
+					"name": "Celestial",
+					"image": "https://i.imgur.com/wc91VGM.png",
+					"rarity": "special",
+					"gained": "breed"
+				},
+				"divine": {
+					"name": "Divine",
+					"image": "https://i.imgur.com/qVb6fKS.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"elysian": {
+					"name": "Elysian",
+					"image": "https://i.imgur.com/nAvWdr8.png",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "wet season",
+						"group_one": [
+							"ice"
+						],
+						"group_two": [
+							"divine",
+							"ebony"
+						]
+					}
+				},
+				"ice": {
+					"name": "Ice",
+					"image": "https://i.imgur.com/rRdIrKQ.png",
+					"rarity": "special",
+					"gained": "custom"
+				},
+				"penumbra": {
+					"name": "Penumbra",
+					"image": "https://i.imgur.com/YAWr3NG.png",
+					"rarity": "special",
+					"gained": "custom"
+				}
+			},
+			"Medium":
+			{
+				"cloudburst": {
+					"name": "Cloudburst",
+					"image": "https://i.imgur.com/i4Alp1u.png",
+					"rarity": "common",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "wet season",
+						"group_one": [
+							"albino"
+						],
+						"group_two": [
+							"chartreux",
+							"korat",
+							"maltese"
+						]
+					}
+				},
+				"dun": {
+					"name": "Dun",
+					"image": "https://i.imgur.com/AMD8A8P.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"steele": {
+					"name": "Steele",
+					"image": "https://i.imgur.com/Ll0T5jC.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sterling": {
+					"name": "Sterling",
+					"image": "https://i.imgur.com/g7cWatw.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"maltese": {
+					"name": "Maltese",
+					"image": "https://i.imgur.com/f8VAklE.png",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"cocoa": {
+					"name": "Cocoa",
+					"image": "https://i.imgur.com/CQQ3nN1.png",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"arctic": {
+					"name": "Arctic",
+					"image": "https://i.imgur.com/i2FRRXf.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"aufeis": {
+					"name": "Aufeis",
+					"image": "https://i.imgur.com/usCQa6M.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"hematite": {
+					"name": "Hematite",
+					"image": "https://i.imgur.com/NMrf2QS.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"moonstone": {
+					"name": "Moonstone",
+					"image": "https://i.imgur.com/4hWKMUY.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"sidereal": {
+					"name": "Sidereal",
+					"image": "https://i.imgur.com/VEwN8AG.png",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			},
+			"Light":
+			{
+				"dove_gray": {
+					"name": "Dove Gray",
+					"image": "https://i.imgur.com/AOJl9Bp.png",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"dusty": {
+					"name": "Dusty",
+					"image": "https://i.imgur.com/9VONHMR.png",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"rosy_brown": {
+					"name": "Rosy Brown",
+					"image": "https://i.imgur.com/Q0LXSkw.png",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"silver_gray": {
+					"name": "Silver Gray",
+					"image": "https://i.imgur.com/9KIbWa9.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"chartreux": {
+					"name": "Chartreux",
+					"image": "https://i.imgur.com/GToLBIl.png",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"glacial": {
+					"name": "Glacial",
+					"image": "https://i.imgur.com/uKgK6QA.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"opal": {
+					"name": "Opal",
+					"image": "https://i.imgur.com/hEHfKFc.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"pulsar": {
+					"name": "Pulsar",
+					"image": "https://i.imgur.com/FgaNPeO.png",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "july",
+						"group_one": [
+							"arctic"
+						],
+						"group_two": [
+							"anjeer",
+							"blazing",
+							"inferno",
+							"prune"
+						]
+					}
+				},
+				"skyward": {
+					"name": "Skyward",
+					"image": "https://i.imgur.com/HUpfSjg.png",
+					"rarity": "special",
+					"gained": "breed"
+				},
+				"soul": {
+					"name": "Soul",
+					"image": "https://i.imgur.com/zM6DLjW.png",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"ebony"
+						],
+						"group_two": [
+							"ivory"
+						]
+					}
+				}
+			}
+		},
+		"Solid":
+		{
+			"Dark":
+			{
+				"chestnut": {
+					"name": "Chestnut",
+					"image": "https://i.imgur.com/sQAixA8.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"jet": {
+					"name": "Jet",
+					"image": "https://i.imgur.com/A7eD9QQ.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"nadir": {
+					"name": "Nadir",
+					"image": "https://i.imgur.com/pJyve1c.png",
+					"rarity": "common",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"black_rose",
+							"ebony"
+						],
+						"group_two": [
+							"ardor",
+							"hellebore",
+							"rhodonite"
+						]
+					}
+				},
+				"obsidian": {
+					"name": "Obsidian",
+					"image": "https://i.imgur.com/S3COHya.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"titanium": {
+					"name": "Titanium",
+					"image": "https://i.imgur.com/QR0WAQY.png",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"onyx": {
+					"name": "Onyx",
+					"image": "https://i.imgur.com/dZqlYSb.png",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"ebony": {
+					"name": "Ebony",
+					"image": "https://i.imgur.com/7wDAaKR.png",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"haze": {
+					"name": "Haze",
+					"image": "https://i.imgur.com/ODuCTEC.png",
+					"rarity": "special",
+					"gained": "breed"
+				},
+				"interstellar": {
+					"name": "Interstellar",
+					"image": "https://i.imgur.com/JcAHmtr.png",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"nuumite": {
+					"name": "Nuumite",
+					"image": "https://i.imgur.com/VrSIrMQ.png",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Medium":
+			{
+				"dark_brown": {
+					"name": "Dark Brown",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"liver": {
+					"name": "Liver",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"silver": {
+					"name": "Silver",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"flint": {
+					"name": "Flint",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"lilac": {
+					"name": "Lilac",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			},
+			"Light":
+			{
+				"albino": {
+					"name": "Albino",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"birch": {
+					"name": "Birch",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"eggshell": {
+					"name": "Eggshell",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"isabel": {
+					"name": "Isabel",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"white": {
+					"name": "White",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"clear_white": {
+					"name": "Clear White",
+					"image": "",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"ashen": {
+					"name": "Ashen",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"cairngorm": {
+					"name": "Cairngorm",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"celestial",
+							"ice",
+							"sidereal",
+							"skyward"
+						],
+						"group_two": [
+							"cocoa",
+							"ethereal",
+							"pearl",
+							"slate"
+						]
+					}
+				}
+			}
+		}
+	},
+	"Cream":
+	{
+		"Countershaded":
+		{
+			"Dark":
+			{
+				"blonde": {
+					"name": "Blonde",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"dusty_rose": {
+					"name": "Dusty Rose",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"pecan": {
+					"name": "Pecan",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"savannah": {
+					"name": "Savannah",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"russet": {
+					"name": "Russet",
+					"image": "",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"arabica": {
+					"name": "Arabica",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"black"
+						],
+						"group_two": [
+							"buttercream",
+							"buttermilk"
+						]
+					}
+				},
+				"nacre": {
+					"name": "Nacre",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"olive": {
+					"name": "Olive",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"caramel"
+						],
+						"group_two": [
+							"xanthic"
+						]
+					}
+				},
+				"supernal": {
+					"name": "Supernal",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Medium":
+			{
+				"dark_vanilla": {
+					"name": "Dark Vanilla",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"deep_fawn": {
+					"name": "Deep Fawn",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"hazelnut": {
+					"name": "Hazelnut",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"mongoose": {
+					"name": "Mongoose",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"cameo": {
+					"name": "Cameo",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"asiatic": {
+					"name": "Asiatic",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"dun",
+							"gray"
+						],
+						"group_two": [
+							"cream",
+							"white"
+						]
+					}
+				},
+				"fossil": {
+					"name": "Fossil",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"hallowed": {
+					"name": "Hallowed",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Light":
+			{
+				"almond": {
+					"name": "Almond",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"antler": {
+					"name": "Antler",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"vanilla": {
+					"name": "Vanilla",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"buff": {
+					"name": "Buff",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"cherry_blossom": {
+					"name": "Cherry Blossom",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"ethereal": {
+					"name": "Ethereal",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"ivory": {
+					"name": "Ivory",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			}
+		},
+		"Solid":
+		{
+			"Dark":
+			{
+				"caramel": {
+					"name": "Caramel",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"khaki": {
+					"name": "Khaki",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"persimmon": {
+					"name": "Persimmon",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"tan": {
+					"name": "Tan",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"amber": {
+					"name": "Amber",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"hellebore": {
+					"name": "Hellebore",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"lilac"
+						],
+						"group_two": [
+							"goldenrod",
+							"udara"
+						]
+					}
+				},
+				"qahir": {
+					"name": "Qahir",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"buff",
+							"cameo",
+							"hallowed",
+							"russet"
+						],
+						"group_two": [
+							"chartreux",
+							"glacial",
+							"hematite",
+							"opal"
+						]
+					}
+				}
+			},
+			"Medium":
+			{
+				"cream": {
+					"name": "Cream",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"cream_darker": {
+					"name": "Cream Darker",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"dark_fawn": {
+					"name": "Dark Fawn",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"fawn": {
+					"name": "Fawn",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"buttercream": {
+					"name": "Buttercream",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"pearl": {
+					"name": "Pearl",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				},
+				"ruffian": {
+					"name": "Ruffian",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			},
+			"Light":
+			{
+				"apricot": {
+					"name": "Apricot",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"beige": {
+					"name": "Beige",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"cream_lighter": {
+					"name": "Cream Lighter",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"light_cream": {
+					"name": "Light Cream",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"buttermilk": {
+					"name": "Buttermilk",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"teardrop": {
+					"name": "Teardrop",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"solaris": {
+					"name": "Solaris",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			}
+		}
+	},
+	"Golden":
+	{
+		"Countershaded":
+		{
+			"Dark":
+			{
+				"deira": {
+					"name": "Deira",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"doubloon": {
+					"name": "Doubloon",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"jacinthe": {
+					"name": "Jacinthe",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"ochre": {
+					"name": "Ochre",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"dinar": {
+					"name": "Dinar",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"fulvous": {
+					"name": "Fulvous",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"anubis": {
+					"name": "Anubis",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"asali": {
+					"name": "Asali",
+					"image": "",
+					"rarity": "special",
+					"gained": "exclusive"
+				},
+				"kimanjano": {
+					"name": "Kimanjano",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			},
+			"Medium":
+			{
+				"ducat": {
+					"name": "Ducat",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"saffron": {
+					"name": "Saffron",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sunflower": {
+					"name": "Sunflower",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"nacarat": {
+					"name": "Nacarat",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"bast": {
+					"name": "Bast",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"dhahabi": {
+					"name": "Dhahabi",
+					"image": "",
+					"rarity": "special",
+					"gained": "exclusive"
+				}
+			},
+			"Light":
+			{
+				"bisquit": {
+					"name": "Bisquit",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"bone": {
+					"name": "Bone",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sunglow": {
+					"name": "Sunglow",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"champagne": {
+					"name": "Champagne",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"citrine": {
+					"name": "Citrine",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"cinnabar",
+							"kimanjano",
+							"topaz",
+							"xanthic"
+						],
+						"group_two": [
+							"cherry_blossom",
+							"fiery",
+							"fulvous",
+							"sulphur"
+						]
+					}
+				}
+			}
+		},
+		"Solid":
+		{
+			"Dark":
+			{
+				"dark_golden": {
+					"name": "Dark Golden",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"zarafshan": {
+					"name": "Zarafshan",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"zarbanu": {
+					"name": "Zarbanu",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"xanthic": {
+					"name": "Xanthic",
+					"image": "",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"udara": {
+					"name": "Udara",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"chatoyant": {
+					"name": "Chatoyant",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"trophy": {
+					"name": "Trophy",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Medium":
+			{
+				"luteo": {
+					"name": "Luteo",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sundust": {
+					"name": "Sundust",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"zarasa": {
+					"name": "Zarasa",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"zarin": {
+					"name": "Zarin",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"topaz": {
+					"name": "Topaz",
+					"image": "",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"goldenrod": {
+					"name": "Goldenrod",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"gilded": {
+					"name": "Gilded",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"anubis",
+							"bast",
+							"seth"
+						],
+						"group_two": [
+							"anubis",
+							"bast",
+							"seth"
+						]
+					}
+				},
+				"green": {
+					"name": "Green",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"labradorite": {
+					"name": "Labradorite",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"mobola": {
+					"name": "Mobola",
+					"image": "",
+					"rarity": "special",
+					"gained": "exclusive"
+				}
+			},
+			"Light":
+			{
+				"bisque": {
+					"name": "Bisque",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"lemon": {
+					"name": "Lemon",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"light_golden": {
+					"name": "Light Golden",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"linen": {
+					"name": "Linen",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"zer": {
+					"name": "Zer",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"zivar": {
+					"name": "Zivar",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"sunshine": {
+					"name": "Sunshine",
+					"image": "",
+					"rarity": "uncommon",
+					"gained": "custom"
+				},
+				"sulphur": {
+					"name": "Sulphur",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				}
+			}
+		}
+	},
+	"Red":
+	{
+		"Countershaded":
+		{
+			"Dark":
+			{
+				"auburn": {
+					"name": "Auburn",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"brass": {
+					"name": "Brass",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"bronze": {
+					"name": "Bronze",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"ruddy": {
+					"name": "Ruddy",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"prune": {
+					"name": "Prune",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"madagascar": {
+					"name": "Madagascar",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"sapela",
+							"sepia",
+							"shedua",
+							"unholy"
+						],
+						"group_two": [
+							"ivory",
+							"nacre",
+							"sunset",
+							"supernal"
+						]
+					}
+				},
+				"rhodonite": {
+					"name": "Rhodonite",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"unholy": {
+					"name": "Unholy",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Medium":
+			{
+				"ginger": {
+					"name": "Ginger",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"mauve": {
+					"name": "Mauve",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"rust": {
+					"name": "Rust",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"anjeer": {
+					"name": "Anjeer",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"inferno": {
+					"name": "Inferno",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"sunset": {
+					"name": "Sunset",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			},
+			"Light":
+			{
+				"copper": {
+					"name": "Copper",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"palomino": {
+					"name": "Palomino",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sorrel": {
+					"name": "Sorrel",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"tawny": {
+					"name": "Tawny",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"fiery": {
+					"name": "Fiery",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"maroon": {
+					"name": "Maroon",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"blazing": {
+					"name": "Blazing",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"fuchsia": {
+					"name": "Fuchsia",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"sunrise": {
+					"name": "Sunrise",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			}
+		},
+		"Solid":
+		{
+			"Dark":
+			{
+				"chocolate": {
+					"name": "Chocolate",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"henna": {
+					"name": "Henna",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"redwood": {
+					"name": "Redwood",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"shedua": {
+					"name": "Shedua",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"black_rose": {
+					"name": "Black Rose",
+					"image": "",
+					"rarity": "special",
+					"gained": "combo",
+					"combos": {
+						"obtainable": "any",
+						"group_one": [
+							"cinnabar"
+						],
+						"group_two": [
+							"jet",
+							"obsidian",
+							"onyx"
+						]
+					}
+				},
+				"bloodbourne": {
+					"name": "Bloodbourne",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"manakbir": {
+					"name": "Manakbir",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Medium":
+			{
+				"brown": {
+					"name": "Brown",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"locust": {
+					"name": "Locust",
+					"image": "",
+					"rarity": "common",
+					"gained": "applicator"
+				},
+				"mahogany": {
+					"name": "Mahogany",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sienna": {
+					"name": "Sienna",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"umber": {
+					"name": "Umber",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"blush_rose": {
+					"name": "Blush Rose",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"sepia": {
+					"name": "Sepia",
+					"image": "",
+					"rarity": "breed",
+					"gained": "custom"
+				},
+				"seth": {
+					"name": "Seth",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				}
+			},
+			"Light":
+			{
+				"cedar": {
+					"name": "Cedar",
+					"image": "",
+					"rarity": "common",
+					"gained": "ncl"
+				},
+				"cremello": {
+					"name": "Cremello",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"fallow": {
+					"name": "Fallow",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"sandy": {
+					"name": "Sandy",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"wild_rose": {
+					"name": "Wild Rose",
+					"image": "",
+					"rarity": "common",
+					"gained": "custom"
+				},
+				"cinnabar": {
+					"name": "Cinnabar",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"sapela": {
+					"name": "Sapela",
+					"image": "",
+					"rarity": "rare",
+					"gained": "breed"
+				},
+				"ardor": {
+					"name": "Ardor",
+					"image": "",
+					"rarity": "special",
+					"gained": "applicator"
+				},
+				"orchid": {
+					"name": "Orchid",
+					"image": "",
+					"rarity": "special",
+					"gained": "breed"
+				}
+			}
+		}
+	}
+}

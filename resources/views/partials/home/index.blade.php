@@ -6,7 +6,7 @@
 				<p class="text-center">
 					External tools built specifically to help the players of Lioden.
 				</p>
-				<li><strong>13th February 2019:</strong> Website updated! Began work on LioCost.
+				<li><strong>13th February 2019:</strong> Website updated! Began work on LioMart.
 				<li><strong>25th September 2018:</strong> Updated LioGene to better handle special bases, combo bases, and calculating the percentages.</li>
 			</div>
 		</div>

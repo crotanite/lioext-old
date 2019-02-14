@@ -5,7 +5,7 @@
 		</h4>
 		<form method="POST" id="liogene_form">
 			<div class="row">
-				<div class="col col-lg-6">
+				<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 					<!-- base color -->
 					<label for="base_color" class="mt-2 mb-0">Base Color</label>
 					<select name="base_color" class="form-control" v-model="form.base_color">
@@ -24,14 +24,16 @@
 					<label for="mane_shape" class="mt-2 mb-0">Mane Shape</label>
 					<select name="mane_shape" class="form-control" v-model="form.mane_shape">
 						<option selected disabled :value="null">-- Select a Gene --</option>
+						<option v-for="shape in maneshapes" :value="shape.id">{{ shape.name }}</option>
 					</select>
 					<!-- mane color -->
 					<label for="mane_color" class="mt-2 mb-0">Mane Color</label>
 					<select name="mane_color" class="form-control" v-model="form.mane_color">
 						<option selected disabled :value="null">-- Select a Gene --</option>
+						<option v-for="color in manecolors" :value="color.id">{{ color.name }}</option>
 					</select>
 				</div>
-				<div class="col col-lg-6">
+				<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 					<!-- markings -->
 					<label for="markings" class="mt-2 mb-0">Markings</label>
 				</div>
@@ -42,7 +44,7 @@
 
 <script>
 	export default {
-		props: ['bases', 'eyes'],
+		props: ['bases', 'eyes', 'maneshapes', 'manecolors'],
 
 		data()
 		{

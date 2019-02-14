@@ -8,7 +8,7 @@
 				</p>
 				<div class="row justify-content-md-center">
 					<div class="col">
-						<mart :bases='{!! json_encode($bases) !!}' :eyes='{!! json_encode($eyes) !!}'></mart>
+						<mart :bases='{!! json_encode($bases) !!}' :eyes='{!! json_encode($eyes) !!}' :maneshapes='{!! json_encode($mane_shapes) !!}' :manecolors='{!! json_encode($mane_colors) !!}'></mart>
 					</div>
 				</div>
 			</div>

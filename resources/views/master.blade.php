@@ -68,7 +68,7 @@
             </main>
 
             <!-- footer-->
-            <footer class="footer mt-4 py-3">
+            <footer class="footer mt-auto py-3">
                 <div class="container text-center">
                     <span class="text-muted">
                         <a href="https://www.lioden.com/">

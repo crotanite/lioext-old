@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         [
             'BasesSeeder',
             'EyesSeeder',
+            'ManesSeeder',
     	];
 
     	// Loop through seeders

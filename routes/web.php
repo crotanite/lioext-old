@@ -2,6 +2,8 @@
 
 use App\Entities\Models\Base;
 use App\Entities\Models\Eye;
+use App\Entities\Models\ManeColor;
+use App\Entities\Models\ManeShape;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +27,15 @@ Route::get('/', function()
 	// fetch the eyes
 	$eyes = Eye::all();
 
+	// fetch the mane shapes
+	$mane_shapes = ManeShape::orderBy('name', 'ASC')->get();
+
+	// fetch the mane colors
+	$mane_colors = ManeColor::orderBy('name', 'ASC')->get();
+
 	// return 'master' view
 	// with bases, eyes
-    return view('master', compact('bases', 'eyes'));
+    return view('master', compact('bases', 'eyes', 'mane_shapes', 'mane_colors'));
 });
 
 Route::post('/lioimage', ['uses' => 'FormController@lioimage']);

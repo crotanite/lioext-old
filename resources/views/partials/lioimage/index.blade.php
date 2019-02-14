@@ -5,8 +5,11 @@
 			<div class="card-body">
 				<p class="card-text">
 					A tool to easily allow you to save your Lioden lions as .png images, with optional background and decorations. Simply enter the full lion url below.
-					<br>
-					<strong>THIS MAY TAKE SOME TIME, PLEASE BE PATIENT!</strong>
+					<p class="text-center">
+						Try using: <em>https://www.lioden.com/lion.php?mid=19352</em> to test it out.
+						<br>
+						<strong>THIS MAY TAKE SOME TIME, PLEASE BE PATIENT!</strong>
+					</p>
 				</p>
 				<div class="row justify-content-md-center">
 					<div class="col col-lg-6">
@@ -15,7 +18,7 @@
 							<!-- url -->
 							<label for="url">URL</label>
 							<div class="input-group">
-								<input type="url" class="form-control" name="url">
+								<input type="url" class="form-control" name="url" placeholder="https://www.lioden.com/lion.php?mid=19352">
 								<div class="input-group-append">
 									<input type="submit" class="btn btn-success" value="Submit">
 								</div>

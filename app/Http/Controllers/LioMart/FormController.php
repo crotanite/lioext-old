@@ -4,6 +4,8 @@ namespace App\Http\Controllers\LioMart;
 
 use App\Entities\Models\Base;
 use App\Entities\Models\Eye;
+use App\Entities\Models\ManeColor;
+use App\Entities\Models\ManeShape;
 use App\Http\Controllers\Controller;
 
 class FormController extends Controller
@@ -21,6 +23,8 @@ class FormController extends Controller
 		$gb_price = 0;
 		$base_color = request()->input('base_color');
 		$eye_color = request()->input('eye_color');
+		$mane_shape = request()->input('mane_shape');
+		$mane_color = request()->input('mane_color');
 
 		// do we have a base_color?
 		if($base_color !== null)
@@ -42,6 +46,28 @@ class FormController extends Controller
 			// update prices
 			$sb_price = $sb_price + $eye_color->price->sb_price;
 			$gb_price = $gb_price + $eye_color->price->gb_price;
+		}
+
+		// do we have a mane_shape?
+		if($mane_shape !== null)
+		{
+			// fetch the base_color
+			$mane_shape = ManeShape::where('id', '=', $mane_shape)->first();
+
+			// update prices
+			$sb_price = $sb_price + $mane_shape->price->sb_price;
+			$gb_price = $gb_price + $mane_shape->price->gb_price;
+		}
+
+		// do we have a mane_color?
+		if($mane_color !== null)
+		{
+			// fetch the base_color
+			$mane_color = ManeColor::where('id', '=', $mane_color)->first();
+
+			// update prices
+			$sb_price = $sb_price + $mane_color->price->sb_price;
+			$gb_price = $gb_price + $mane_color->price->gb_price;
 		}
 
 		// return the prices

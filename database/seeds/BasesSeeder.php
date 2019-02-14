@@ -368,7 +368,7 @@ class BasesSeeder extends Seeder
 							],
 							'price' => [
 								'sb_price' => 0,
-								'gb_price' => 150,
+								'gb_price' => 100,
 							],
 						],
 						'skyward' => [

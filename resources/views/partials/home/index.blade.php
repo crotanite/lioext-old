@@ -17,7 +17,7 @@
 
 <div class="row">
 	<!-- lioimage -->
-	<div class="col">
+	<div class="col col-lg-4 col-lg-4 col-sm-4 col-12">
 		<div class="card">
 			<img src="/images/lioimage.jpg" class="card-img-top">
 			<div class="card-body">
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<!-- liogene -->
-	<div class="col">
+	<div class="col col-lg-4 col-lg-4 col-sm-4 col-12">
 		<div class="card">
 			<img src="/images/liogene.jpg" class="card-img-top">
 			<div class="card-body">
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 	<!-- liocost -->
-	<div class="col">
+	<div class="col col-lg-4 col-lg-4 col-sm-4 col-12">
 		<div class="card">
 			<img src="/images/liomart.jpg" class="card-img-top">
 			<div class="card-body">

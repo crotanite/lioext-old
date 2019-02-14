@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h4 class="text-center mb-4">
-			<strong>Estimated Sell Price:</strong> {{ price.sb }} SB {{ price.gb }} GB
+			<strong>Estimated Sell Price:</strong> {{ price.gb }} GB {{ price.sb }} SB
 		</h4>
 		<form method="POST" id="liogene_form">
 			<div class="row">

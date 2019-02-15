@@ -372,6 +372,13 @@ class FormController extends Controller
 						// is the mother's base in group two?
 						if(in_array($mother_base, $group_two))
 						{
+							// are they obtained whenever?
+							if($color->obtainable !== 'any')
+							{
+								// nope, so update the name
+								$color['name'] = $color['name'].' ('.$color->obtainable.' only)';
+							}
+							
 							// they are, so add to color
 							$colors[] = $color;
 

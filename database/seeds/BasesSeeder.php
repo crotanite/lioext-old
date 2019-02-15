@@ -118,7 +118,7 @@ class BasesSeeder extends Seeder
 							'rarity' => 'special',
 							'gained' => 'combo',
 							'combos' => [
-								'obtainable' => 'wet season',
+								'obtainable' => 'any',
 								'group_one' => [
 									'ice'
 								],
@@ -2307,6 +2307,16 @@ class BasesSeeder extends Seeder
 	        				'rarity' => $_base['rarity'],
 	        				'gained' => $_base['gained'],
 	        			]);
+
+	        			// is this a combo base?
+	        			if($base->gained === 'combo')
+	        			{
+	        				// update
+	        				$base->obtainable = $_base['combos']['obtainable'];
+	        				$base->group_one = implode(',', $_base['combos']['group_one']);
+	        				$base->group_two = implode(',', $_base['combos']['group_two']);
+	        				$base->save();
+	        			}
 
 	        			// create the price
 	        			$price = Price::create([

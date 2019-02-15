@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Entities\Models\Base;
 use App\Http\Controllers\Controller;
 
 class FormController extends Controller
@@ -209,9 +210,11 @@ class FormController extends Controller
 		$_potentials = [];
 		$potentials = [];
 
-		// fetch the content of the json file
-		$path = public_path().'/data/liogene.json';
-		$json_content = json_decode(file_get_contents($path), true);
+		// fetch the bases
+		$bases = Base::all()->groupBy(function($base)
+		{
+			return $base['color'].'-'.$base['group'].'-'.$base['shade'];
+		});
 
 		// get the mother correctly
 		$mother_array = explode('-', $mother);
@@ -252,26 +255,26 @@ class FormController extends Controller
 		}
 
 		// are the father and mother's shades both dark or both light?
-		if($mother_shade === 'Dark' && $father_shade === 'Dark' || $mother_shade === 'Light' && $father_shade === 'Light')
+		if($mother_shade === 'dark' && $father_shade === 'dark' || $mother_shade === 'light' && $father_shade === 'light')
 		{
 			// they are, so just add one to our _potentials
 			$_potentials['shades'][] = ['value' => $mother_shade, 'percentage' => 1];
 		} else
 		{
 			// are both of them medium?
-			if($mother_shade === 'Medium' && $father_shade === 'Medium')
+			if($mother_shade === 'medium' && $father_shade === 'medium')
 			{
 				// they are, so add all three shades
-				$_potentials['shades'][] = ['value' => 'Dark', 'percentage' => 0.15];
-				$_potentials['shades'][] = ['value' => 'Medium', 'percentage' => 0.7];
-				$_potentials['shades'][] = ['value' => 'Light', 'percentage' => 0.15];
+				$_potentials['shades'][] = ['value' => 'dark', 'percentage' => 0.15];
+				$_potentials['shades'][] = ['value' => 'medium', 'percentage' => 0.7];
+				$_potentials['shades'][] = ['value' => 'light', 'percentage' => 0.15];
 			// is one of them dark, and one of them light?
-			} else if($mother_shade === 'Dark' && $father_shade === 'Light' || $mother_shade === 'Light' && $father_shade === 'Dark')
+			} else if($mother_shade === 'dark' && $father_shade === 'light' || $mother_shade === 'light' && $father_shade === 'dark')
 			{
 				// they are, so add all three shades
-				$_potentials['shades'][] = ['value' => 'Dark', 'percentage' => 0.25];
-				$_potentials['shades'][] = ['value' => 'Medium', 'percentage' => 0.5];
-				$_potentials['shades'][] = ['value' => 'Light', 'percentage' => 0.25];
+				$_potentials['shades'][] = ['value' => 'dark', 'percentage' => 0.25];
+				$_potentials['shades'][] = ['value' => 'medium', 'percentage' => 0.5];
+				$_potentials['shades'][] = ['value' => 'light', 'percentage' => 0.25];
 			} else
 			{
 				// they are not, so just add the two
@@ -295,14 +298,14 @@ class FormController extends Controller
 					// set variables
 					$percentage = $color['percentage'] * $group['percentage'] * $shade['percentage'];
 					$total_percentage = $total_percentage + $percentage;
-
+					
 					// create the data
 					$data = [
 						'color' => $color['value'],
 						'group' => $group['value'],
 						'shade' => $shade['value'],
 						'percentage' => $percentage,
-						'colors' => $json_content[$color['value']][$group['value']][$shade['value']],
+						'colors' => $bases[$color['value'].'-'.$group['value'].'-'.$shade['value']],
 					];
 
 					// add to potentials
@@ -339,17 +342,21 @@ class FormController extends Controller
 				// is the base a combo base?
 				if($color['gained'] === 'combo')
 				{
+					// set variables
+					$group_one = explode(',', $color->group_one);
+					$group_two = explode(',', $color->group_two);
+
 					// is the mother's base in group one?
-					if(in_array($mother_base, $color['combos']['group_one']))
+					if(in_array($mother_base, $group_one))
 					{
 						// is the mother's base in group two?
-						if(in_array($father_base, $color['combos']['group_two']))
+						if(in_array($father_base, $group_two))
 						{
 							// are they obtained whenever?
-							if($color['combos']['obtainable'] !== 'any')
+							if($color->obtainable !== 'any')
 							{
 								// nope, so update the name
-								$color['name'] = $color['name'].' ('.$color['combos']['obtainable'].' only)';
+								$color['name'] = $color['name'].' ('.$color->obtainable.' only)';
 							}
 							// they are, so add to color
 							$colors[] = $color;
@@ -360,10 +367,10 @@ class FormController extends Controller
 					}
 
 					// is the father's base in group one?
-					if(in_array($father_base, $color['combos']['group_one']))
+					if(in_array($father_base, $group_one))
 					{
 						// is the mother's base in group two?
-						if(in_array($mother_base, $color['combos']['group_two']))
+						if(in_array($mother_base, $group_two))
 						{
 							// they are, so add to color
 							$colors[] = $color;

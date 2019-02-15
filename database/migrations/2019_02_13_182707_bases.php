@@ -23,6 +23,9 @@ class Bases extends Migration
             $table->string('image');
             $table->enum('rarity', ['common', 'uncommon', 'rare', 'special']);
             $table->enum('gained', ['custom', 'ncl', 'breed', 'applicator', 'combo', 'exclusive']);
+            $table->string('obtainable')->nullable()->default(null);
+            $table->longText('group_one')->nullable()->default(null);
+            $table->longText('group_two')->nullable()->default(null);
             $table->timestamps();
         });
     }

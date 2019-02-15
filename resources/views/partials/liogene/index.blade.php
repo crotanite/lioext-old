@@ -17,12 +17,26 @@
 									<label for="father">Father</label>
 									<select name="father" class="genes form-control">
 										<option selected disabled>-- Select a Gene --</option>
+										@foreach($bases as $group => $_bases)
+											<optgroup label="{{ $group }}">
+												@foreach($_bases as $base)
+													<option value="{{ $base['color'] }}-{{ $base['group'] }}-{{ $base['shade'] }}-{{ $base['slug'] }}">{{ $base['name'] }}</option>
+												@endforeach
+											</optgroup>
+										@endforeach
 									</select>
 								</div>
 								<div class="col">
 									<label for="mother">Mother</label>
 									<select name="mother" class="genes form-control">
 										<option selected disabled>-- Select a Gene --</option>
+										@foreach($bases as $group => $_bases)
+											<optgroup label="{{ $group }}">
+												@foreach($_bases as $base)
+													<option value="{{ $base['color'] }}-{{ $base['group'] }}-{{ $base['shade'] }}-{{ $base['slug'] }}">{{ $base['name'] }}</option>
+												@endforeach
+											</optgroup>
+										@endforeach
 									</select>
 								</div>
 							</div>

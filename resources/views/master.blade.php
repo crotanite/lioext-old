@@ -100,45 +100,6 @@
                 $('html,body').scrollTop(scrollmem);
               });
             });
-
-            // fetch the genes
-            $.getJSON('/data/liogene.json', populate_selects);
-
-            // populate the selects
-            function populate_selects(data)
-            {
-                // set variables
-                var options = '';
-
-                // loop through data
-                $.each(data, function(color, groups)
-                {
-                    // loop through groups
-                    $.each(groups, function(group, shades)
-                    {
-                        // loop through shades
-                        $.each(shades, function(shade, bases)
-                        {
-                            // add shade
-                            options += '<optgroup label="' + color + ' ' + group + ' ' + shade + '">';
-                            
-                            // loop through bases
-                            $.each(bases, function(base_slug, base_name)
-                            {
-                                // add the bases
-                                options += '<option value="' + color + '-' + group + '-' + shade + '-' + base_slug + '">' + base_name.name + '</option>';
-                            });
-
-                            // close shade
-                            options += '</optgroup>';
-                        });
-                    });
-                });
-
-                // loop through dropdowns
-                $('.genes').append(options);
-            }
-
             $(document).on('submit', 'form#lioimage_form', function() {
                 $('#output_image').html('<em class="fa fa-spinner fa-pulse fa-3x fa-fw"></em>');
                 $.ajax({

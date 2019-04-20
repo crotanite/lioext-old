@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
     	// All Seeders
     	$seeders =
         [
-            'BasesSeeder',
-            'EyesSeeder',
-            'ManesSeeder',
+            //'BasesSeeder',
+            //'EyesSeeder',
+            //'ManesSeeder',
     	];
 
     	// Loop through seeders
